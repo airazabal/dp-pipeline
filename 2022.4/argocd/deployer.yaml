@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: default
   sources:
-    - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
+    - repoURL: 'https://github.com/airazabal/dp-pipeline.git'
       targetRevision: main
       path: 2022.4/pipelines/platform-ui
     - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
