@@ -103,7 +103,7 @@ spec:
               mqDashboard: true
               replicas: 2
               storage:
-                class: ocs-storagecluster-cephfs
+                class: ibmc-file-gold-gid
               version: $(params.CP4I_VERSION)
             EOF
 
