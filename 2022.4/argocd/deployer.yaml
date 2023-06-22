@@ -12,15 +12,15 @@ spec:
     - repoURL: 'https://github.com/airazabal/dp-pipeline.git'
       targetRevision: main
       path: 2022.4/pipelines/platform-ui
-    - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
-      targetRevision: main
-      path: 2022.4/pipelines/mq
-    - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
-      targetRevision: main
-      path: 2022.4/pipelines/api-connect
-    - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
-      targetRevision: main
-      path: 2022.4/pipelines/app-connect
+    # - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
+    #   targetRevision: main
+    #   path: 2022.4/pipelines/mq
+    # - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
+    #   targetRevision: main
+    #   path: 2022.4/pipelines/api-connect
+    # - repoURL: 'https://github.com/cloud-native-toolkit/deployer-cp4i.git'
+    #   targetRevision: main
+    #   path: 2022.4/pipelines/app-connect
   syncPolicy:
     automated:
       prune: false
