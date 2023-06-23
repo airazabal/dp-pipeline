@@ -21,6 +21,6 @@ spec:
           resources:
             requests:
               storage: 1Gi
-          storageClassName: ibmc-file-gold-gid
+          storageClassName: ibmc-file-gold-gid 
           volumeMode: Filesystem
         status: {}
